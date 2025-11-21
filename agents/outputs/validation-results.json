@@ -1,0 +1,1658 @@
+{
+  "timestamp": "2025-11-21T15:43:05.214Z",
+  "summary": {
+    "entities": {
+      "total": 983,
+      "valid": 983,
+      "invalid": 0,
+      "errors": 0,
+      "warnings": 100
+    },
+    "relationships": {
+      "total": 53,
+      "valid": 53,
+      "invalid": 0,
+      "flagged_for_review": 7,
+      "errors": 0,
+      "warnings": 8
+    }
+  },
+  "entity_issues": [
+    {
+      "concept_id": 23,
+      "concept_name": "FAST-Splat",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 45,
+      "concept_name": "DiffGS",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 64,
+      "concept_name": "DepthSplat",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 84,
+      "concept_name": "3D Gaussian Splitting",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 104,
+      "concept_name": "NegGS",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 105,
+      "concept_name": "Negative Gaussians",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 122,
+      "concept_name": "Gaussian Billboards",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 140,
+      "concept_name": "SG-Splatting",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 142,
+      "concept_name": "Spherical Gaussians",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 180,
+      "concept_name": "Krylov Subspace Methods",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 181,
+      "concept_name": "CGLS",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 183,
+      "concept_name": "3D Cone Beam CT",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 195,
+      "concept_name": "HairGS",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 215,
+      "concept_name": "Latent Radiance Fields",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 235,
+      "concept_name": "Diffusion Model Relighting",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 253,
+      "concept_name": "LiDAR-NeRF",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 254,
+      "concept_name": "Novel LiDAR View Synthesis",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 271,
+      "concept_name": "LabVIEW",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 286,
+      "concept_name": "Neural Real-Time Recalibration",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 300,
+      "concept_name": "Real-time Calibration",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 324,
+      "concept_name": "Gaussian Grouping",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 326,
+      "concept_name": "Identity Encoding",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 345,
+      "concept_name": "3D Scene Generation",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 365,
+      "concept_name": "Gaussian Blending",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 375,
+      "concept_name": "Complex-Valued 2D Gaussian",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 376,
+      "concept_name": "Computer-Generated Holography",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 389,
+      "concept_name": "ShelfOcc",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 404,
+      "concept_name": "Dental3R",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 406,
+      "concept_name": "Geometry-Aware Pairing Strategy",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 409,
+      "concept_name": "intraoral 3D reconstruction",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 422,
+      "concept_name": "GSLR",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 436,
+      "concept_name": "RoboTidy",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 449,
+      "concept_name": "InstructMix2Mix",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 450,
+      "concept_name": "multi-view image editing",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 466,
+      "concept_name": "Gaussian See, Gaussian Do",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 467,
+      "concept_name": "semantic 3D motion transfer",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 481,
+      "concept_name": "RocSync",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 482,
+      "concept_name": "LED Clock",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 497,
+      "concept_name": "NH-3DGS",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 499,
+      "concept_name": "luminance-chromaticity decomposition",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 511,
+      "concept_name": "FFSE",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 524,
+      "concept_name": "Opt3DGS",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 537,
+      "concept_name": "SF-Recon",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 552,
+      "concept_name": "SymGS",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 566,
+      "concept_name": "GUIDE",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 580,
+      "concept_name": "CloseUpShot",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 594,
+      "concept_name": "SplatSearch",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 595,
+      "concept_name": "Instance Image Goal Navigation",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 610,
+      "concept_name": "DTGS",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 625,
+      "concept_name": "GS-Light",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 644,
+      "concept_name": "Reuse-and-Update Sorting",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 658,
+      "concept_name": "Task-aware Evaluation Framework",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 660,
+      "concept_name": "D_PRISM",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 661,
+      "concept_name": "MMD_PRISM",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 671,
+      "concept_name": "Conversational Digital Humans",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 685,
+      "concept_name": "Energy-based Model",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 686,
+      "concept_name": "Active View Selection",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 697,
+      "concept_name": "Online Scene Change Detection",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 700,
+      "concept_name": "Self-Supervised Fusion Loss",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 709,
+      "concept_name": "SRSplat",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 727,
+      "concept_name": "LiDAR-GS++",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 742,
+      "concept_name": "Depth Anything 3",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 757,
+      "concept_name": "Separate-then-Map",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 772,
+      "concept_name": "Target-Balanced Score Distillation",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 786,
+      "concept_name": "SkelSplat",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 790,
+      "concept_name": "Multi-view 3D Human Pose Estimation",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 800,
+      "concept_name": "UltraGS",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 815,
+      "concept_name": "EAGLE",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 831,
+      "concept_name": "NeuSpring",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 832,
+      "concept_name": "Neural Spring Field",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 845,
+      "concept_name": "Non-Aligned Reference IQA",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 857,
+      "concept_name": "ConeGS",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 872,
+      "concept_name": "GFix",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 902,
+      "concept_name": "DIAL-GS",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 917,
+      "concept_name": "4DSTR",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 919,
+      "concept_name": "Spatial-temporal rectification",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 932,
+      "concept_name": "PhysWorld",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 944,
+      "concept_name": "Inpaint360GS",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 946,
+      "concept_name": "360° inpainting",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 958,
+      "concept_name": "Physics-Informed Deformable Gaussian Splatting",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 974,
+      "concept_name": "StreamSTGS",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 976,
+      "concept_name": "Free-Viewpoint Video",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 989,
+      "concept_name": "Deformable Gaussian Splatting",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 990,
+      "concept_name": "Splatography",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1004,
+      "concept_name": "CLM",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1016,
+      "concept_name": "Agentic Urban Planning AI Framework",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1031,
+      "concept_name": "FastGS",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1048,
+      "concept_name": "Gaussian-Mesh Joint Optimization",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1064,
+      "concept_name": "UniSplat",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1065,
+      "concept_name": "3D Latent Scaffold",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1078,
+      "concept_name": "Room Envelopes",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1079,
+      "concept_name": "Indoor Layout Reconstruction",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1090,
+      "concept_name": "GraspView",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1106,
+      "concept_name": "Real-to-sim policy evaluation",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1117,
+      "concept_name": "3D Gaussian Point Encoder",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1134,
+      "concept_name": "Trajectory-Centric Distillation",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1135,
+      "concept_name": "Schrödinger Bridge",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1148,
+      "concept_name": "Physical Property Reasoning",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1149,
+      "concept_name": "Augmented Visual Cognition",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    },
+    {
+      "concept_id": 1163,
+      "concept_name": "Object-Centric Reconstruction",
+      "is_valid": true,
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "suspicious_perfect_score",
+          "message": "Relevance 1.0 but concept mentioned in only 1 paper - may be overstated",
+          "field": "relevance_score",
+          "current_value": 1,
+          "suggested_fix": "Verify this is truly the core contribution"
+        }
+      ]
+    }
+  ],
+  "relationship_issues": [
+    {
+      "relationship_id": 8,
+      "type": "evaluates",
+      "is_valid": true,
+      "flagged": true,
+      "source": "Recent Advances in 3D Gaussian Splatting",
+      "target": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "type_explanation_mismatch",
+          "message": "Relationship type \"evaluates\" but explanation doesn't contain expected keywords",
+          "field": "explanation",
+          "current_value": "Type: evaluates",
+          "suggested_fix": "Explanation should mention: evaluate, compare, benchmark, test, measure, assess"
+        }
+      ]
+    },
+    {
+      "relationship_id": 18,
+      "type": "cites",
+      "is_valid": true,
+      "flagged": true,
+      "source": "3D Scene Generation: A Survey",
+      "target": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "low_confidence",
+          "message": "Low confidence score (0.40) - recommend human review",
+          "field": "confidence",
+          "current_value": 0.4,
+          "suggested_fix": "Flag for human review or re-extract with better prompting"
+        }
+      ]
+    },
+    {
+      "relationship_id": 27,
+      "type": "extends",
+      "is_valid": true,
+      "flagged": true,
+      "source": "Gaussian Splatting-based Low-Rank Tensor Representation for Multi-Dimensional Image Recovery",
+      "target": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "low_confidence",
+          "message": "Low confidence score (0.40) - recommend human review",
+          "field": "confidence",
+          "current_value": 0.4,
+          "suggested_fix": "Flag for human review or re-extract with better prompting"
+        }
+      ]
+    },
+    {
+      "relationship_id": 38,
+      "type": "cites",
+      "is_valid": true,
+      "flagged": true,
+      "source": "RocSync: Millisecond-Accurate Temporal Synchronization for Heterogeneous Camera Systems",
+      "target": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "low_confidence",
+          "message": "Low confidence score (0.25) - recommend human review",
+          "field": "confidence",
+          "current_value": 0.25,
+          "suggested_fix": "Flag for human review or re-extract with better prompting"
+        },
+        {
+          "severity": "warning",
+          "rule": "very_low_confidence",
+          "message": "Very low confidence (0.25) - relationship may be spurious",
+          "field": "confidence",
+          "current_value": 0.25,
+          "suggested_fix": "Consider removing or re-extracting"
+        }
+      ]
+    },
+    {
+      "relationship_id": 50,
+      "type": "evaluates",
+      "is_valid": true,
+      "flagged": true,
+      "source": "Appreciate the View: A Task-Aware Evaluation Framework for Novel View Synthesis",
+      "target": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "low_confidence",
+          "message": "Low confidence score (0.40) - recommend human review",
+          "field": "confidence",
+          "current_value": 0.4,
+          "suggested_fix": "Flag for human review or re-extract with better prompting"
+        }
+      ]
+    },
+    {
+      "relationship_id": 63,
+      "type": "evaluates",
+      "is_valid": true,
+      "flagged": true,
+      "source": "Non-Aligned Reference Image Quality Assessment for Novel View Synthesis",
+      "target": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "low_confidence",
+          "message": "Low confidence score (0.40) - recommend human review",
+          "field": "confidence",
+          "current_value": 0.4,
+          "suggested_fix": "Flag for human review or re-extract with better prompting"
+        }
+      ]
+    },
+    {
+      "relationship_id": 77,
+      "type": "builds_on",
+      "is_valid": true,
+      "flagged": true,
+      "source": "Improving Multi-View Reconstruction via Texture-Guided Gaussian-Mesh Joint Optimization",
+      "target": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "issues": [
+        {
+          "severity": "warning",
+          "rule": "low_confidence",
+          "message": "Low confidence score (0.45) - recommend human review",
+          "field": "confidence",
+          "current_value": 0.45,
+          "suggested_fix": "Flag for human review or re-extract with better prompting"
+        }
+      ]
+    }
+  ]
+}

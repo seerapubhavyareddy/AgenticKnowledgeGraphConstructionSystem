@@ -1,0 +1,34 @@
+{
+    "name": "knowledge-graph-agents",
+    "version": "1.0.0",
+    "description": "Agentic system for building academic paper knowledge graph",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "dev": "ts-node src/index.ts",
+        "extract": "ts-node src/agents/run-entity-extraction.ts",
+        "discover": "ts-node src/agents/run-relationship-discovery.ts",
+        "test": "ts-node src/test-connection.ts",
+        "test-single": "ts-node src/agents/test-single-paper.ts",
+        "validate": "ts-node src/agents/run-validation.ts"
+    },
+    "keywords": [
+        "knowledge-graph",
+        "ai-agents",
+        "research-papers"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@anthropic-ai/sdk": "^0.30.0",
+        "pg": "^8.11.3",
+        "dotenv": "^16.3.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.0",
+        "@types/pg": "^8.10.9",
+        "typescript": "^5.3.3",
+        "ts-node": "^10.9.2"
+    }
+}

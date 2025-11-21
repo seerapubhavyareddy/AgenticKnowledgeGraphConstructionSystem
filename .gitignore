@@ -1,0 +1,45 @@
+# Dependencies
+agents/node_modules/
+venv/
+__pycache__/
+
+# Environment
+.env
+agents/.env
+.env.local
+
+# Build
+agents/dist/
+agents/*.tsbuildinfo
+
+# PDFs (large files)
+papers/pdfs/*.pdf
+
+
+# Dependencies
+agents/package-lock.json
+agents/yarn.lock
+
+# Build output
+agents/dist/
+agents/build/
+
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+

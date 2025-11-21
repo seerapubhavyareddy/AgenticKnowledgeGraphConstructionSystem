@@ -1,0 +1,14 @@
+# Paper collection
+arxiv==2.1.0
+requests==2.31.0
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+
+# LLM APIs
+anthropic==0.18.1
+
+# PDF processing
+PyMuPDF==1.23.8
