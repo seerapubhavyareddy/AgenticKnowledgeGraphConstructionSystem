@@ -1,4 +1,111 @@
-    # Knowledge Graph Agents - Entity Extraction Layer
+# Agentic Knowledge Graph Construction System
+
+> **📖 For detailed architecture, design decisions, and system explanation, please refer to:**  
+> [Agentic Knowledge Graph Construction System.docx](https://github.com/seerapubhavyareddy/AgenticKnowledgeGraphConstructionSystem/blob/main/Agentic%20Knowledge%20Graph%20Construction%20System.docx)
+
+## Overview
+
+Intelligent agentic system for constructing knowledge graphs from academic research papers. Focuses on 3D Gaussian Splatting research using citation-based paper collection and three-agent processing pipeline.
+
+## Quick Start
+
+### 1. Setup
+```bash
+# Install Python dependencies
+pip install -r requirements.txt
+
+# Install TypeScript dependencies
+cd agents
+npm install
+cd ..
+
+# Configure environment
+cp .env.example .env
+# Edit .env with your DATABASE_URL and ANTHROPIC_API_KEY
+```
+
+### 2. Collect Papers
+
+**Citation-based collection** (recommended - gets papers citing seminal work):
+```bash
+python fetch_citing_papers.py
+```
+
+This fetches 50-70 papers that cite the seminal 3D Gaussian Splatting paper (ArXiv: 2308.04079) using Semantic Scholar API.
+
+**Alternative - keyword search**:
+```bash
+python fetch_papers.py
+```
+
+### 3. Extract Text from PDFs
+```bash
+python extract_text_from_pdfs.py
+```
+
+### 4. Upload to Database
+```bash
+python upload_to_database.py
+```
+
+### 5. Run Agent Pipeline
+```bash
+cd agents
+
+# Agent #1: Entity Extraction
+npm run extract
+
+# Agent #2: Relationship Discovery
+npm run discover
+
+# Agent #3: Validation
+npm run validate
+```
+
+## System Architecture
+```
+Papers (PDFs) → Text Extraction → PostgreSQL
+                                       ↓
+                               Agent #1: Entity Extraction
+                                       ↓
+                               Agent #2: Relationship Discovery
+                                       ↓
+                               Agent #3: Validation
+                                       ↓
+                               Knowledge Graph
+```
+
+## Project Structure
+```
+├── papers/
+│   ├── pdfs/              # Downloaded papers
+│   └── metadata/          # Paper metadata JSON
+├── agents/
+│   └── src/
+│       ├── agents/        # Three-agent system
+│       ├── database.ts    # PostgreSQL client
+│       └── types.ts       # TypeScript types
+├── fetch_citing_papers.py # Citation-based collection
+├── extract_text_from_pdfs.py
+└── upload_to_database.py
+```
+
+## Paper Collection Strategy
+
+We use **citation-based selection** via Semantic Scholar API:
+- Queries papers citing ArXiv: 2308.04079
+- Filters to papers with ArXiv IDs
+- Downloads PDFs from ArXiv
+- Ensures 100% relevance to seminal work
+
+## Three-Agent System
+
+1. **Entity Extraction Agent**: Extracts concepts (methods, techniques, datasets, metrics)
+2. **Relationship Discovery Agent**: Finds semantic relationships between papers
+3. **Validation Agent**: Rule-based validation of extracted data
+
+
+# Knowledge Graph Agents - Entity Extraction Layer
 
 This is the **TypeScript agent layer** for the Knowledge Graph system. It extracts entities (concepts, methods, techniques, datasets, metrics) from research papers using Anthropic's Claude AI.
 
@@ -1375,10 +1482,16 @@ Agent #3 completes your three-agent architecture:
 **Key Innovation:** 
 Rule-based validation is **faster, cheaper, and deterministic** while catching 95% of errors. This is the right trade-off for a proof-of-concept system.
 
-**You now have a complete, production-ready knowledge graph pipeline! 🎊**
+## Technologies
 
+- **TypeScript/Node.js**: Agent layer
+- **Python**: Data processing
+- **PostgreSQL**: Knowledge graph storage
+- **Anthropic Claude Sonnet 4**: LLM for extraction
+- **Semantic Scholar API**: Citation data
+- **ArXiv API**: Paper PDFs
 ---
 
-*Document Version: 1.2*  
+*Document Version: 1.3*  
 *Last Updated: 2025*  
 *Author: Bhavya Reddy Seerapu*
